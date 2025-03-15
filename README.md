@@ -6,7 +6,7 @@ content:
 * how it works?
 * customizing for yourself
 * summary and example
-\
+
 ## what is it for?
 test
 
