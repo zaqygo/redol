@@ -2,9 +2,9 @@
 ### redol - a tool for redirecting a domain to userhost without switching to another ip or port.
 
 content:
-* what is it for?[anchor link 'what is it for?'](#what-is-it-for?)
-* how it works?[anchor link 'how it works?'](#how-it-works?)
-* customizing for yourself[anchor link 'customizing for yourself'](#customizing-for-yourself)
+* [what is it for?](#what-is-it-for?)
+* [how it works?](#how-it-works?)
+* [customizing for yourself](#customizing-for-yourself)
 * redirect to primary page addon
 * summary and example
 
