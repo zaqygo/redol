@@ -13,8 +13,10 @@ To explain why I wrote this script, I'll just give you my example. So, I have my
 ## how it works?
 I will explain based on the example above. Work only with domain level 3!\
 My script works like this:\
+\
 Situation 1:\
 A user has logged in to user1.site.com -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is not located in its root directory -> redirect to the path /hosting/user1 -> end of task\
+\
 Situation 2:\
 The user entered the address www.site.com/hosting/user1 -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is located in its root directory -> domain user1.site.com ? -> no, the domain is not user1.site.com -> redirect to the same path, but with a change of domain level 3 to site1 -> end of task
 ## customizing for yourself
