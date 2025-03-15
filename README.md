@@ -1,6 +1,12 @@
 # redol
 ### redol - a tool for redirecting a domain to userhost without switching to another ip or port.
-lol
+\
+content:
+* what is it for?
+* how it works?
+* customizing for yourself
+* summary and example
+\
 ## what is it for?
-lol
+test
 
