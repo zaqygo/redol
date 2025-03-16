@@ -1,5 +1,5 @@
 console.log("[redol] started");
-
+//see the details on https://github.com/zaqygo/redol/blob/main/README.md#redirect-to-primary-page-addon
 //
 //
 //  common variables ---->
