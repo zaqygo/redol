@@ -66,12 +66,12 @@ I also wrote an addon for those people who have a lot of level 2 domains. All li
 *description of the variables above =>*
 ## summary and example
 **After all the settings, we will get such a redirect system:**
-* https://userdomain.site.com/ - go to the page https://userdomain.site.com/hosting/userhost/ (index.html)
-* https://userdomain.site.com/#anotherfolder - go to the page https://userdomain.konataa.ru/hosting/userdomain/ to the folder anotherfolder.\
+* https://userdomain.site.com/ - go to the page https://userdomain.site.com/path/to/host/userhost/ (index.html)
+* https://userdomain.site.com/#anotherfolder - go to the page https://userdomain.konataa.ru/path/to/host/userdomain/ to the folder anotherfolder.\
 result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/
-* https://userdomain.site.com/#anothersite.html - go to the page https://userdomain.konataa.ru/hosting/userhost/ to the file anothersite.html.\
-result ——> https://userdomain.site.com/hosting/userhost/anothersite.html
-* https://userdomain.site.com/#$anchor - go to the page https://userdomain.konataa.ru/hosting/userhost with an anchor #anchor.\
-result ——> https://userdomain.site.com/hosting/userhost/#anchor
-* https://userdomain.site.com/#anotherfolder$anchor - go to the page https://userdomain.konataa.ru/hosting/userhost/anotherfolder with an anchor #anchor.\
-result ——> https://userdomain.site.com/hosting/userhost/anotherfolder/#anchor
+* https://userdomain.site.com/#anothersite.html - go to the page https://userdomain.konataa.ru/path/to/host/userhost/ to the file anothersite.html.\
+result ——> https://userdomain.site.com/path/to/host/userhost/anothersite.html
+* https://userdomain.site.com/#$anchor - go to the page https://userdomain.konataa.ru/path/to/host/userhost with an anchor #anchor.\
+result ——> https://userdomain.site.com/path/to/host/userhost/#anchor
+* https://userdomain.site.com/#anotherfolder$anchor - go to the page https://userdomain.konataa.ru/path/to/host/userhost/anotherfolder with an anchor #anchor.\
+result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#anchor
