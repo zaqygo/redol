@@ -17,28 +17,28 @@ var hostingfp = (anchors.replace(/\#/g, '')).replace(/\$/g, '#');
 //
 //  host variables ---->
 
-var maindomain = 'www.konataa.ru'; //your primary domain
-var maindlvl2 = 'konataa.ru'; //your primary domain is a level 2 domain type
-var maindlvl3 = 'www'; //domain level 3 (if there is none, leave it empty)
-var hpath = '/hosting'; //the path to the hosting path without the destination path
-var mainuserpath = window.location.pathname.split('/')[2]; //destination path
-var maindpath2 = hpath + '/' + mainuserpath; //full path to hosting using mainuserpath
-var maincheckurl = mainuserpath+'.'+maindlvl2+maindpath2; //checking that the user is not on the hosting path
-var turlpath = hpath + '/' + dlvl3; //full path to hosting using dlvl3
-var turl = domain+turlpath; //redirect main page to userhost page
-var turldomain = mainuserpath+'.'+maindlvl2; //redirect any domain dlvl3 to userhost dlvl3 using mainuserpath
-let userdomain = ['dmixd'];
+var maindomain = 'www.site.com';
+var maindlvl2 = 'site.com';
+var maindlvl3 = 'www';
+var hpath = '/hosting';
+var mainpath = window.location.pathname.split('/')[2];
+var maindpath2 = hpath + '/' + mainpath;
+var maincheckurl = mainpath+'.'+maindlvl2+maindpath2;
+var turldomain = mainpath+'.'+maindlvl2;
+var turlpath = hpath + '/' + dlvl3;
+var turl = domain+turlpath;
+let redirectdomain = ['user1', 'user2', 'user3'];
 
 //  host variables ---->
 //
 //
-//  <--------------------------------------- hosting konataa redirect links --------------------------------------->
+//  <--------------------------------------- hosting redirect links --------------------------------------->
 
 if ((!localStorage.getItem('redirectDone')) && (checkurl !== maincheckurl) && (dlvl2 == maindlvl2)) {
     var targetUrl = "https://"+turl;
     var targetDomain = "https://"+turldomain;
     console.log("[redol] the redirect has not been performed yet");
-    if ((dlvl3 !== maindlvl3) && (userdomain.includes(dlvl3))) {
+    if ((dlvl3 !== maindlvl3) && (redirectdomain.includes(dlvl3))) {
     switch (window.location.hostname) {
         case (domain):
             if (hostingfp !== '') {targetUrl += "/" + hostingfp;}
@@ -54,12 +54,12 @@ if ((!localStorage.getItem('redirectDone')) && (checkurl !== maincheckurl) && (d
 else {console.log("[redol] the redirect has already been performed earlier");localStorage.removeItem('redirectDone');}
 
 
-//  <--------------------------------------- hosting konataa redirect links --------------------------------------->
+//  <--------------------------------------- hosting redirect links --------------------------------------->
 //
 //
-//  <--------------------------------------- standart konataa redirect links -------------------------------------->
+//  <--------------------------------------- standart redirect links -------------------------------------->
 
-if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3 || dlvl2 !== maindlvl2) && (!userdomain.includes(dlvl3))) {
+if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3) && (dlvl2 !== maindlvl2) && (!redirectdomain.includes(dlvl3))) {
     console.log("[redol-main] the redirect has not been performed yet");
     switch(domain){
         case domain: 
@@ -69,8 +69,6 @@ if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3 || dlvl2 !==
         break;}}
 else {console.log("[redol-main] no reasons for redirect");localStorage.removeItem('redirectDone');}
 
-//  <--------------------------------------- standart konataa redirect links -------------------------------------->
+//  <--------------------------------------- standart redirect links -------------------------------------->
 //
-//
-// site : https://www.konataa.ru
-// testhost : https://dmixd.konataa.ru
+// tested on konataa.ru | no longer work
