@@ -72,3 +72,5 @@ else {console.log("[redol-main] no reasons for redirect");localStorage.removeIte
 //  <--------------------------------------- standart konataa redirect links -------------------------------------->
 //
 //
+// site : https://www.konataa.ru
+// testhost : https://dmixd.konataa.ru
