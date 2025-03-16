@@ -60,6 +60,8 @@ let userdomain = ['user1', 'user2', 'user3'];  // --> an array containing domain
 ## redirect to primary page addon
 I also wrote an addon for those people who have a lot of level 2 domains. All links that do not match the primary domain will be redirected to the primary domain with the full path. see "redol.js"\
 **Variables are required to use this function:**\
+\
 --> maindomain; maindlvl3;\
-description of the variables above =>
+\
+*description of the variables above =>*
 ## 
