@@ -80,3 +80,7 @@ result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#
 *(var maindlvl3 = "www")*
 * https://web.site.com/ -> go to the page https://www.site.com/
 * https://web.site.com/anypath -> go to the page https://www.site.com/anypath
+<p align="center">
+  <img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWM5YnhxZ2xmb3E4dmswNDF3NG1ibno4Y2w2NnhrajI0NGVmYzExeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZRO3dSwKRVNmStfdD6/giphy.gif'>
+  <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjNyZnF5aTJmOGY5bTJhdGllbWt6Mnh2ZTJ5ZGVsamNjaTdqcGJudiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xkks4ADIsBhnkYXtMe/giphy.gif'>
+</p>
