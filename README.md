@@ -93,3 +93,11 @@ result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#
 ```html
 <script src='https://raw.githubusercontent.com/zaqygo/redol/refs/heads/main/redol.js'></script>
 ```
+### redol.min.js
+```html
+<script src='https://raw.githubusercontent.com/zaqygo/redol/refs/heads/main/redol.min.js'></script>
+```
+### redol.dl2.js
+```html
+<script src='https://raw.githubusercontent.com/zaqygo/redol/refs/heads/main/redol.dl2.js'></script>
+```
