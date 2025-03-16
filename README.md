@@ -49,17 +49,26 @@ var dpath2 = '' // --> path to main redirect host folder (you can use window.loc
 
 // host variables ---->
 
-var maindomain = 'example.com';//'www.example.com'  // --> your primary domain
-var maindlvl2 = 'example.com';  // --> your primary domain but as a second-level domain
-var maindlvl3 = '' ; //'www' // --> domain level 3 (if there is none, leave it empty)
+// easy part ---->
+
+var maindomain = 'example.com';//'www.example.com'  // --> your primary domain 
+var maindlvl2 = 'example.com';  // --> your primary domain but as a second-level domain 
+var maindlvl3 = '' ; //'www' // --> domain level 3 (if there is none, leave it empty) 
 var hpath = '/patch/to/host';  // --> the path to the hosting path without the destination path
-var mainpath = '' // (i use this -> window.location.pathname.split('/')[n]; where n is where n is the number of hpath + 1 folders); // --> destination path
-var maindpath2 = hpath + '/' + mainuserpath;  // --> full path to hosting using mainuserpath
-var maincheckurl = mainuserpath+'.'+maindlvl2+maindpath2;  // --> checking that the user is not on the hosting path
-var turlpath = hpath + '/' + dlvl3;  // --> full path to hosting using dlvl3
+let redirectdomain = ['red1', 'red2', 'red3'];  // --> an array containing domains with a custom level 3 for hosting #--> individual
+
+// easy part ---->
+
+// difficult part ---->
+
+var mainpath = ''; // (i use this -> window.location.pathname.split('/')[n]; where n is where n is the number of hpath + 1 folders) // --> destination path #--> individual
+var maindpath2 = ''; // (i use this -> hpath + '/' + mainpath)  // --> full path to hosting using mainpath #--> individual
+var maincheckurl = ''; // (i use this -> mainpath+'.'+maindlvl2+maindpath2)  // --> checking that the user is not on the hosting path #--> individual
+var turldomain = ''; // (i use this -> mainpath+'.'+maindlvl2)  // --> redirect any domain dlvl3 to mainpath dlvl3 using mainuserpath #--> individual
+var turlpath = ''; // (i use this -> hpath + '/' + dlvl3)  // --> full path to hosting using dlvl3 #--> individual
 var turl = domain+turlpath;  // --> redirect main page to userhost page
-var turldomain = mainuserpath+'.'+maindlvl2;  // --> redirect any domain dlvl3 to userhost dlvl3 using mainuserpath
-let redirectdomain = ['red1', 'red2', 'red3'];  // --> an array containing domains with a custom level 3 for hosting
+
+// difficult part ---->
 
 // host variables ---->
 ```
