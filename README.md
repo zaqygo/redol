@@ -43,9 +43,9 @@ var dpath2 = '' // --> path to main userhost folder (you can use window.location
 
 // host variables ---->
 
-var maindomain = '(www.)example.com';  // --> your primary domain
+var maindomain = 'example.com';//'www.example.com'  // --> your primary domain
 var maindlvl2 = 'example.com';  // --> your primary domain but as a second-level domain
-var maindlvl3 = '(www)';  // --> domain level 3 (if there is none, leave it empty)
+var maindlvl3 = '' ; //'www' // --> domain level 3 (if there is none, leave it empty)
 var hpath = '/patch/to/hosting';  // --> the path to the hosting path without the destination path
 var mainuserpath = '' // (i use this -> window.location.pathname.split('/')[n]; where n is where n is the number of hpath + 1 folders); // --> destination path
 var maindpath2 = hpath + '/' + mainuserpath;  // --> full path to hosting using mainuserpath
@@ -66,12 +66,17 @@ I also wrote an addon for those people who have a lot of level 2 domains. All li
 *description of the variables above =>*
 ## summary and example
 **After all the settings, we will get such a redirect system:**
-* https://userdomain.site.com/ - go to the page https://userdomain.site.com/path/to/host/userhost/ (index.html)
-* https://userdomain.site.com/#anotherfolder - go to the page https://userdomain.konataa.ru/path/to/host/userdomain/ to the folder anotherfolder.\
+### redol.min.js
+* https://userdomain.site.com/ -> go to the page https://userdomain.site.com/path/to/host/userhost/ (index.html)
+* https://userdomain.site.com/#anotherfolder -> go to the page https://userdomain.konataa.ru/path/to/host/userdomain/ to the folder anotherfolder.\
 result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/
-* https://userdomain.site.com/#anothersite.html - go to the page https://userdomain.konataa.ru/path/to/host/userhost/ to the file anothersite.html.\
+* https://userdomain.site.com/#anothersite.html -> go to the page https://userdomain.konataa.ru/path/to/host/userhost/ to the file anothersite.html.\
 result ——> https://userdomain.site.com/path/to/host/userhost/anothersite.html
-* https://userdomain.site.com/#$anchor - go to the page https://userdomain.konataa.ru/path/to/host/userhost with an anchor #anchor.\
+* https://userdomain.site.com/#$anchor -> go to the page https://userdomain.konataa.ru/path/to/host/userhost with an anchor #anchor.\
 result ——> https://userdomain.site.com/path/to/host/userhost/#anchor
-* https://userdomain.site.com/#anotherfolder$anchor - go to the page https://userdomain.konataa.ru/path/to/host/userhost/anotherfolder with an anchor #anchor.\
+* https://userdomain.site.com/#anotherfolder$anchor -> go to the page https://userdomain.konataa.ru/path/to/host/userhost/anotherfolder with an anchor #anchor.\
 result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#anchor
+### redol.dl2.js
+*(var maindlvl3 = "www")*
+* https://web.site.com/ -> go to the page https://www.site.com/
+* https://web.site.com/anypath -> go to the page https://www.site.com/anypath
