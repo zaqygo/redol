@@ -1,5 +1,5 @@
 console.log("[redol] started");
-
+//see the details on https://github.com/zaqygo/redol/tree/main?tab=readme-ov-file#customizing-for-yourself
 //
 //
 //  common variables ---->
