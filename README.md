@@ -63,7 +63,7 @@ let userdomain = ['user1', 'user2', 'user3'];  // --> an array containing domain
 I also wrote an addon for those people who have a lot of level 2 domains. All links that do not match the primary domain will be redirected to the primary domain with the full path. see "redol.js" or "redol.dl2.js"\
 **Variables are required to use this function:**\
 \
---> **maindomain** and **maindlvl3** <--\
+--> **maindomain**; **maindlvl2** and **maindlvl3**<--\
 \
 *description of the variables above =>*
 ## summary and example
