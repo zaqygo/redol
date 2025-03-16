@@ -40,7 +40,7 @@ else {console.log("[redol] the redirect has already been performed earlier");loc
 //  <--------------------------------------- hosting redirect links --------------------------------------->
 //
 //
-//  <--------------------------------------- standart redirect links -------------------------------------->
+//  <----------------------------------------- addon redirect links --------------------------------------->
 
 if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3) && (dlvl2 !== maindlvl2) && (!redirectdomain.includes(dlvl3))) {
     console.log("[redol-main] the redirect has not been performed yet");
@@ -52,6 +52,6 @@ if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3) && (dlvl2 !
         break;}}
 else {console.log("[redol-main] no reasons for redirect");localStorage.removeItem('redirectDone');}
 
-//  <--------------------------------------- standart redirect links -------------------------------------->
+//  <----------------------------------------- addon redirect links --------------------------------------->
 //
 //
