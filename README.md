@@ -65,8 +65,8 @@ I also wrote an addon for those people who have a lot of level 2 domains. All li
 \
 *description of the variables above =>*
 ## summary and example
-**After all the settings, we will get such a redirect system:**
-### redol.min.js
+### After all the settings, we will get such a redirect system
+**redol.min.js**
 * https://userdomain.site.com/ -> go to the page https://userdomain.site.com/path/to/host/userhost/ (index.html)
 * https://userdomain.site.com/#anotherfolder -> go to the page https://userdomain.konataa.ru/path/to/host/userdomain/ to the folder anotherfolder.\
 result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/
@@ -82,7 +82,7 @@ result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#
   <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjNyZnF5aTJmOGY5bTJhdGllbWt6Mnh2ZTJ5ZGVsamNjaTdqcGJudiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xkks4ADIsBhnkYXtMe/giphy.gif'>
 </p>
 
-### redol.dl2.js
+**redol.dl2.js**
 *(var maindlvl3 = "www")*
 * https://web.site.com/ -> go to the page https://www.site.com/
 * https://web.site.com/anypath -> go to the page https://www.site.com/anypath
