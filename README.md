@@ -65,7 +65,7 @@ I also wrote an addon for those people who have a lot of level 2 domains. All li
 \
 *description of the variables above =>*
 ## summary and example
-**After all the settings, we will get such a redirect system:**\
+**After all the settings, we will get such a redirect system:**
 * https://userdomain.site.com/ - go to the page https://userdomain.site.com/hosting/userhost/ (index.html)
 * https://userdomain.site.com/#anotherfolder - go to the page https://userdomain.konataa.ru/hosting/userdomain/ to the folder anotherfolder.\
 result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/
