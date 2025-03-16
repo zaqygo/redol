@@ -32,7 +32,7 @@ The user entered the address www.site.com/hosting/user1 -> the script checked wh
 ## customizing for yourself
 You have to create a new one.js where your variables will be stored or downloaded .js from github and insert variables there. My code is probably not optimized at all, but it will do as a base.\
 Below you can see which variables can be changed. Just in case, take a look at the code, as your case may not be suitable for my script!
-```
+```javascript
 // common variables ---->
 
 var dpath2 = '' // --> path to main userhost folder (you can use window.location.pathname.split('/')[n]; where n is the number of each path; starting from 1);
