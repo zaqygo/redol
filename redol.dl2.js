@@ -12,7 +12,7 @@ var anchors = window.location.hash.substring(); //implementing a path to a speci
 //  common variables ---->
 //
 //
-//  <--------------------------------------- standart redirect links -------------------------------------->
+//  <----------------------------------------- addon redirect links --------------------------------------->
 
 if ((!localStorage.getItem('redirectDone')) && (domain !== maindomain)) {
     console.log("[redol-main] the redirect has not been performed yet");
@@ -24,6 +24,6 @@ if ((!localStorage.getItem('redirectDone')) && (domain !== maindomain)) {
         break;}}
 else {console.log("[redol-main] no reasons for redirect");localStorage.removeItem('redirectDone');}
 
-//  <--------------------------------------- standart redirect links -------------------------------------->
+//  <----------------------------------------- addon redirect links --------------------------------------->
 //
 //
