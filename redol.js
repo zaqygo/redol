@@ -8,7 +8,7 @@ var domain = window.location.hostname; //gets the host domain
 var dlvl2 = location.hostname.split('.')[1]+'.'+location.hostname.split('.')[2]; //getting a domain, but as a second-level domain
 var dlvl3 = location.hostname.split('.')[0]; //getting a domain level 3
 var dpath = window.location.pathname; //getting full path
-var checkurl = domain + dpath2; //checking whether the user is in the redirhost path
+var checkurl = domain + dpath2; //checking whether the user is in the maindpath2
 var anchors = window.location.hash.substring(); //implementing a path to a specific url
 var hostingfp = (anchors.replace(/\#/g, '')).replace(/\$/g, '#'); //removing unnecessary characters
 
