@@ -5,7 +5,7 @@ content:
 * [what is it for?](#what-is-it-for?)
 * [how it works?](#how-it-works?)
 * [customizing for yourself](#customizing-for-yourself)
-* redirect to primary page addon
+* [redirect to primary page addon](#redirect-to-primary-page-addon)
 * summary and example
 
 ## what is it for?
@@ -58,7 +58,7 @@ let userdomain = ['user1', 'user2', 'user3'];  // --> an array containing domain
 // host variables ---->
 ```
 ## redirect to primary page addon
-I also wrote an addon for those people who have a lot of level 2 domains. All links that do not match the primary domain will be redirected to the primary domain with the full path. see "redol.js"\
+I also wrote an addon for those people who have a lot of level 2 domains. All links that do not match the primary domain will be redirected to the primary domain with the full path. see "redol.js" or "redol.dl2.js"\
 **Variables are required to use this function:**\
 \
 --> **maindomain** and **maindlvl3** <--\
