@@ -42,7 +42,7 @@ else {console.log("[redol] the redirect has already been performed earlier");loc
 //
 //  <--------------------------------------- standart redirect links -------------------------------------->
 
-if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3) && (!userdomain.includes(dlvl3))) {
+if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3 || dlvl2 !== maindlvl2) && (!userdomain.includes(dlvl3))) {
     console.log("[redol-main] the redirect has not been performed yet");
     switch(domain){
         case domain: 
