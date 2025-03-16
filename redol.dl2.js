@@ -14,7 +14,7 @@ var anchors = window.location.hash.substring(); //implementing a path to a speci
 //
 //  <--------------------------------------- standart redirect links -------------------------------------->
 
-if ((!localStorage.getItem('redirectDone')) && (dlvl3 !== maindlvl3 || dlvl2 !== maindlvl2) && (!userdomain.includes(dlvl3))) {
+if ((!localStorage.getItem('redirectDone')) && (domain !== maindomain)) {
     console.log("[redol-main] the redirect has not been performed yet");
     switch(domain){
         case domain: 
