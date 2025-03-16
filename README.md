@@ -16,7 +16,7 @@ My script works like this:\
 \
 **Situation 1:**\
 A user has logged in to user1.site.com -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is not located in its root directory -> redirect to the path /hosting/user1 -> end of task\
-![1 скриншот](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa210dWJ4bHI1MzBuc2IzcWZlZzBhcnBlZDhmYWhuNTRkdDFqMHZsOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vYLi328b8f6iyUN2fF/giphy.gif "Начало установки")
+<p style="text-align: center;">![www to dmixd redirect](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa210dWJ4bHI1MzBuc2IzcWZlZzBhcnBlZDhmYWhuNTRkdDFqMHZsOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vYLi328b8f6iyUN2fF/giphy.gif "www to dmixd redirect")</p>
 \
 **Situation 2:**\
 The user entered the address www.site.com/hosting/user1 -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is located in its root directory -> domain user1.site.com ? -> no, the domain is not user1.site.com -> redirect to the same path, but with a change of domain level 3 to site1 -> end of task
