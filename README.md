@@ -6,7 +6,9 @@ content:
 * [how it works?](#how-it-works?)
 * [customizing for yourself](#customizing-for-yourself)
 * [redirect to primary page addon](#redirect-to-primary-page-addon)
-* summary and example
+* [summary and example](#summary-and-example)
+* [embedding](#embedding)
+* [bug report](#bug-report)
 
 ## what is it for?
 To explain why I wrote this script, I'll just give you my example. So, I have my own website, which, let's say, is located at www.site.com and I want my website to be displayed on this domain. I also have website hosting for clients. One of them is located at www.site.com/hosting/user1/index.html . The user wanted an address for himself user1.site.com but you're too lazy to worry about setting up your server/hosting. My script will help you in some way to solve this problem.
@@ -101,3 +103,5 @@ result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#
 ```html
 <script src='https://raw.githubusercontent.com/zaqygo/redol/refs/heads/main/redol.dl2.js'></script>
 ```
+## bug report
+Write me an email at maezbro8@gmail.com or on yo@lvavilow.ru . I will help you solve the problem.
