@@ -17,7 +17,7 @@ var hostingfp = (anchors.replace(/\#/g, '')).replace(/\$/g, '#'); //removing unn
 //
 //  <--------------------------------------- hosting redirect links --------------------------------------->
 
-if (!localStorage.getItem('redirectDone') && checkurl !== maincheckurl) {
+if ((!localStorage.getItem('redirectDone')) && (checkurl !== maincheckurl) && (dlvl2 == maindlvl2)) {
     var targetUrl = "https://"+turl;
     var targetDomain = "https://"+turldomain;
     console.log("[redol] the redirect has not been performed yet");
