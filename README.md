@@ -16,6 +16,7 @@ My script works like this:\
 \
 **Situation 1:**\
 A user has logged in to user1.site.com -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is not located in its root directory -> redirect to the path /hosting/user1 -> end of task\
+
 <p align="center">
   <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa210dWJ4bHI1MzBuc2IzcWZlZzBhcnBlZDhmYWhuNTRkdDFqMHZsOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vYLi328b8f6iyUN2fF/giphy.gif'>
 </p>
@@ -23,6 +24,10 @@ A user has logged in to user1.site.com -> the script checked whether domain leve
 \
 **Situation 2:**\
 The user entered the address www.site.com/hosting/user1 -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is located in its root directory -> domain user1.site.com ? -> no, the domain is not user1.site.com -> redirect to the same path, but with a change of domain level 3 to site1 -> end of task
+
+<p align="center">
+  <img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGIwNWp2N2gybTFudGg1djNxd2tmeWV2MDZpN2g5Y2R5ODVsenN1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5GouV525aDaS6uf29r/giphy.gif'>
+</p>
 
 ## customizing for yourself
 You have to create a new one.js where your variables will be stored or downloaded .js from github and insert variables there. My code is probably not optimized at all, but it will do as a base.\
