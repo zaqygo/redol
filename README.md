@@ -87,7 +87,7 @@ result ——> https://userdomain.site.com/path/to/host/userhost/anotherfolder/#
 * https://web.site.com/ -> go to the page https://www.site.com/
 * https://web.site.com/anypath -> go to the page https://www.site.com/anypath
 ## embedding
-**IMPORTANT!**\ 
+**IMPORTANT!**\
 ***If you use redol.js or redol.dl2.js then you should embed the script on each site so that it continues to redirect users. Using redol.min.js you must embed in the main html that is output when you enter your domain (https://site.com/index.html)***
 ### redol.js (contains the code redol.min.js and redol.dl2.js)
 ```html
