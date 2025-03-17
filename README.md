@@ -21,7 +21,7 @@ I will explain based on the example above. Work only with domain level 3!\
 My script works like this:\
 \
 **Situation 1:**\
-A user has logged in to user1.site.com -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is not located in its root directory -> redirect to the path /hosting/user1 -> end of task\
+A user has logged in to user1.site.com -> the script checked whether domain level 3 corresponds to the array -> user1 corresponds to the array -> is user1 located in its root directory? -> it is not located in its root directory -> redirect to the path /hosting/user1 -> end of task
 
 <p align="center">
   <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa210dWJ4bHI1MzBuc2IzcWZlZzBhcnBlZDhmYWhuNTRkdDFqMHZsOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vYLi328b8f6iyUN2fF/giphy.gif'>
