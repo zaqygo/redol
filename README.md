@@ -11,11 +11,11 @@ content:
 * [bug report](#bug-report)
 
 ## what is it for?
-**YOU CAN USE IT THAT WAY, BUT DON'T!**\
 \
-To explain why I wrote this script, I'll just give you my example. So, I have my own website, which, let's say, is located at www.site.com and I want my website to be displayed on this domain. I also have website hosting for clients. One of them is located at www.site.com/hosting/user1/index.html . The user wanted an address for himself user1.site.com but you're too lazy to worry about setting up your server/hosting. My script will help you in some way to solve this problem.\
+it can be used as a redirect to another domain if you do not have access to the nginx/apache conf file.I do not recommend using this for Hosting, 
+it is better to negotiate with the administrator for access to nginx/apache conf. If you're doing this dumb redirection like I did back then, 
+then get ready for a lot of trouble...\
 \
-**YOU CAN USE IT THAT WAY, BUT DON'T!**
 ## how it works?
 I will explain based on the example above. Work only with domain level 3!\
 My script works like this:\
