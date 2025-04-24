@@ -13,7 +13,7 @@ content:
 ## what is it for?
 it can be used as a redirect to another domain if you do not have access to the nginx/apache conf file.I do not recommend using this for Hosting, 
 it is better to negotiate with the administrator for access to nginx/apache conf. If you're doing this dumb redirection like I did back then, 
-then get ready for a lot of trouble...\
+then get ready for a lot of trouble...
 ## how it works?
 I will explain based on the example above. Work only with domain level 3!\
 My script works like this:\
